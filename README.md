@@ -1,4 +1,4 @@
 # JavaJatek
 
-Szerializálás (serializable)
+Szerializálás (serializable)<br>
 Tervezési minta (design pattern)
