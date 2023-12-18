@@ -6,6 +6,11 @@ public class Kezdes extends Helyszin
     {
         return "Ez a kezdés";
     }
+    
+    @Override public String egyikBtnText()
+    {
+        return "Tovább";
+    }
 
     @Override public Helyszin egyikIrany()
     {
