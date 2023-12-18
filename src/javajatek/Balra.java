@@ -1,17 +1,17 @@
 package javajatek;
 public class Balra extends Helyszin{
-       @Override public String leiras()
+    @Override public String leiras()
     {
-        return "Irány Balra";
+        return "Ez a Balra";
     }
     
     @Override public String egyikBtnText()
     {
-        return "???";
+        return "Balra";
     }
 
     @Override public Helyszin egyikIrany()
     {
-        throw new UnsupportedOperationException("sss");
+        throw new UnsupportedOperationException("Nincs");
     }
 }

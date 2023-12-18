@@ -1,6 +1,6 @@
 package javajatek;
 
-public class Kezdes extends Helyszin
+public class Kezdes extends Helyszin implements MasikIrany
 {
     @Override public String leiras()
     {
@@ -11,9 +11,19 @@ public class Kezdes extends Helyszin
     {
         return "Balra";
     }
+    
+    @Override public String masikBtnText()
+    {
+        return "Jobbra";
+    }
 
     @Override public Helyszin egyikIrany()
     {
         return new Balra();
+    }
+    
+    @Override public Helyszin masikIrany()
+    {
+        return new Jobbra();
     }
 }
