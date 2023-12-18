@@ -4,16 +4,16 @@ public class Kezdes extends Helyszin
 {
     @Override public String leiras()
     {
-        return "Ez a kezdés";
+        return "Jobbra vagy balra?";
     }
     
     @Override public String egyikBtnText()
     {
-        return "Tovább";
+        return "Balra";
     }
 
     @Override public Helyszin egyikIrany()
     {
-        throw new UnsupportedOperationException("Skill issue");
+        return new Balra();
     }
 }
