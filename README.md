@@ -10,4 +10,4 @@ Egy szobából egy, vagy több másik szobába lehet mozogni és egy szobához t
 <br>
 Megoldás:<br>
 <br>
-Egy "Szoba" osztályban egy dictionary-ben lementjük, hogy melyik irány melyik másik szobába vezet.
+State (állapot) design pattern
