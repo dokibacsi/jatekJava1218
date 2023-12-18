@@ -6,4 +6,9 @@ public class Start extends Helyszin
     {
         return "Ez a start! Haladj tovább!";
     }
+
+    @Override public Helyszin egyikIrany()
+    {
+        return new Kezdes();
+    }
 }
